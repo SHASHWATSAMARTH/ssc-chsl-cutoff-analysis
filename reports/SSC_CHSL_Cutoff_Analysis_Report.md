@@ -24,17 +24,40 @@ This study aims to address this gap by conducting a structured, longitudinal ana
 ---
 
 ## 2. Objectives of the Study
-(To be written)
+
+The primary objectives of this study are as follows:
+
+1. To analyze SSC CHSL Tier-I cut-off trends over a five-year period (2019–2023).
+2. To compare cut-off variations across different posts, namely LDC/JSA, PA/SA, and DEO.
+3. To examine category-wise differences in cut-off marks across reservation categories.
+4. To study the relationship between competition density and cut-off levels.
+5. To demonstrate a structured, database-driven approach to analyzing competitive examination data.
 
 ---
 
 ## 3. Scope of the Study
-(To be written)
+
+This study is limited to the SSC CHSL Tier-I examination conducted between 2019 and 2023. The analysis covers three major posts—LDC/JSA, PA/SA, and DEO—and five reservation categories: UR, OBC, SC, ST, and EWS.
+
+The study focuses on identifying relative trends and structural patterns in cut-off behavior rather than evaluating policy effectiveness or reservation outcomes. Factors such as shift-wise normalization, regional variation, and individual candidate performance are outside the scope of this analysis.
 
 ---
 
 ## 4. Data Sources and Collection
-(To be written)
+
+The data used in this study was collected from both primary and secondary sources to ensure accuracy, completeness, and transparency.
+
+### 4.1 Primary Data Sources
+
+Official cut-off marks for SSC CHSL Tier-I examinations were obtained from result and write-up documents published on the official website of the Staff Selection Commission (SSC). These documents provide post-wise and category-wise cut-off details and were treated as the authoritative source for cut-off data across all five years of analysis (2019–2023).
+
+### 4.2 Secondary Data Sources
+
+Secondary sources, including reputed examination preparation portals and publicly available reports, were used to cross-verify cut-off values and to obtain contextual information regarding candidate participation. These sources were used only for data structuring and validation purposes and not as primary authorities.
+
+### 4.3 Candidate Participation Data
+
+The SSC does not officially publish category-wise candidate appearance data. Therefore, candidate participation figures used in this study were estimated using a combination of total applicant statistics, reservation proportions, and publicly available exam analytics. All such figures are explicitly treated as estimates and are used solely to analyze relative competition density rather than absolute participation counts.
 
 ---
 
