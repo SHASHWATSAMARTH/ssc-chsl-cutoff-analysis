@@ -62,34 +62,67 @@ The SSC does not officially publish category-wise candidate appearance data. The
 ---
 
 ## 5. Data Preparation and Storage
-(To be written)
+
+After collection, the raw data was organized and cleaned using spreadsheet software to ensure consistency, accuracy, and compatibility with further analysis. Column names were standardized, categorical values were normalized, and incomplete or inconsistent entries were removed. The cleaned dataset was first preserved as a raw Excel file to maintain an immutable source of truth.
+
+For analytical readiness, a separate analysis-oriented dataset was created and exported in CSV format. This CSV file served as the primary input for both database design and Python-based analysis.
+
+To enable structured storage and reproducibility, a relational database schema was designed using MySQL. The schema captures examination year, post, category, cut-off marks, and estimated candidate participation in a normalized tabular format. Although the database was not executed as part of this study, the schema and import logic were documented and version-controlled to demonstrate a production-ready data pipeline.
 
 ---
 
 ## 6. Methodology
-(To be written)
+
+The study follows a structured, multi-stage methodology designed to ensure transparency and reproducibility. First, official SSC documents were reviewed to extract post-wise and category-wise cut-off data for each year. The extracted data was manually validated and cleaned using spreadsheet tools.
+
+Next, the cleaned data was structured into a relational format consistent with SQL database design principles. This structure enabled efficient grouping, aggregation, and trend analysis across multiple dimensions such as year, post, and category.
+
+Finally, the dataset was analyzed using Python, leveraging data analysis and visualization libraries to compute summary statistics and generate trend-based insights. All scripts, schemas, and datasets were maintained under version control using GitHub to ensure traceability and incremental development.
 
 ---
 
 ## 7. Data Analysis and Results
-(To be written)
+
+The analysis reveals distinct and consistent patterns across posts and categories over the five-year period.
+
+Post-wise analysis shows that the Data Entry Operator (DEO) post consistently records the highest cut-off marks. This trend can be attributed to a combination of lower vacancy counts, higher skill requirements, and stronger candidate preference. The Postal Assistant/Sorting Assistant (PA/SA) post exhibits moderate cut-off levels, while the Lower Division Clerk/Junior Secretariat Assistant (LDC/JSA) post shows comparatively lower cut-offs due to higher vacancy availability despite larger candidate participation.
+
+Category-wise analysis indicates that unreserved and OBC categories generally record higher cut-offs across all posts, reflecting higher competition density. Reserved categories such as SC and ST consistently show lower cut-off thresholds, aligning with comparatively lower participation levels.
+
+A combined analysis of candidate participation and cut-off marks demonstrates a positive relationship between competition density and cut-off levels, suggesting that relative crowd size plays a significant role in determining qualifying thresholds.
 
 ---
 
 ## 8. Findings and Discussion
-(To be written)
+
+The findings of this study highlight that SSC CHSL cut-off variations are largely structural rather than random. Post preference and vacancy distribution emerge as dominant determinants of cut-off levels. Posts with fewer vacancies and higher demand consistently maintain higher cut-offs across years.
+
+Similarly, category-wise cut-off differences align closely with estimated competition density rather than year-specific exam difficulty. While minor year-to-year fluctuations are observed, the overall hierarchy of cut-offs remains stable across the five-year timeline.
+
+These findings support the view that cut-off behavior in large-scale competitive examinations is primarily influenced by participation dynamics and structural constraints rather than short-term examination factors alone.
 
 ---
 
 ## 9. Limitations
-(To be written)
+
+This study is subject to certain limitations. Category-wise candidate participation data is not officially published by the SSC and therefore had to be estimated using secondary sources and proportional assumptions. While care was taken to ensure reasonable estimates, absolute accuracy cannot be guaranteed.
+
+Additionally, the study does not account for shift-wise normalization, regional variation, or changes in examination pattern beyond Tier-I. These factors may influence individual-year cut-offs but are beyond the defined scope of this analysis.
 
 ---
 
 ## 10. Conclusion
-(To be written)
+
+This five-year post-wise and category-wise analysis of SSC CHSL Tier-I cut-offs demonstrates that competition density and post preference are the most influential factors governing cut-off variation. Despite changes in exam conditions across years, structural patterns remain consistent, reinforcing the role of participation dynamics and vacancy distribution in shaping cut-off outcomes.
+
+The study also illustrates the effectiveness of a structured, database-driven approach to analyzing competitive examination data. The methodology and analytical framework presented here can be extended to other examinations and datasets to support evidence-based understanding of recruitment trends.
 
 ---
 
 ## References
-(To be added)
+
+1. Staff Selection Commission. Official SSC CHSL Result and Write-Up Documents (2019–2023). https://ssc.gov.in  
+2. CareerPower. SSC CHSL Cut-Off Analysis and Exam Trends.  
+3. Testbook. SSC CHSL Examination Data and Insights.  
+4. Public news reports and exam analytics related to SSC CHSL participation.
+
