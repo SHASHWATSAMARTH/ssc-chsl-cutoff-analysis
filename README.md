@@ -29,9 +29,8 @@ The project examines how competition density and post preference influence cut-o
 ssc-chsl-cutoff-analysis/
 │
 ├── data/
-│ ├── ssc_chsl_raw_data.xlsx # Original collected data (locked)
 │ ├── ssc_chsl_analysis_data.xlsx # Cleaned, analysis-ready data
-│ └── ssc_chsl_cutoff_data.csv # CSV used for analysis
+│ └── ssc_chsl_analysis_data.csv # CSV used for analysis
 │
 ├── database/
 │ ├── schema.sql # MySQL database schema
